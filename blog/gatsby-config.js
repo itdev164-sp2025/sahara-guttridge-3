@@ -15,10 +15,10 @@ module.exports = {
   siteMetadata: {
     title: `Sahara's Blog`,
     description: ``,
-    author: `Mike Hunsicker`,
+    author: `Sahara Guttridge`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     contact: {
-      name: `Mike Hunsicker`,
+      name: `Sahara Guttridge`,
       company: `Blogs Inc.`,
       address: `PO Box 1234`
     }
