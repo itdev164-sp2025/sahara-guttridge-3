@@ -14,10 +14,7 @@ const Content = styled.div`
   padding: var(--size-gutter);
 `
 
-const Footer = styled.footer`
-  margin-top: var(--space-5);
-  font-size: var(--font-sm);
-`
+
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
