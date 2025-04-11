@@ -14,6 +14,6 @@ const Reset = styled(Button)`
 export const BaseButton = ({children, ...rest}) =>
     <Reset {...rest}>{children}</Reset>
 
-BaseButton.PropTypes = {
+BaseButton.propTypes = {
     children: PropTypes.node.isRequired
 }
