@@ -3,11 +3,15 @@ import mainHeaderImage from './images/react.png'
 import {Search} from 'styled-icons/feather'
 
 
+const images = {
+  mainHeaderImage
+}
+const icons = {
+  Search: <Search/>
+ }
 
 
-
-
-const theme = { mainHeaderImage
+const theme = { 
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   colors: {
     grays:
@@ -25,9 +29,7 @@ const theme = { mainHeaderImage
     }
   }
 }
- const images = {
-  Search: <Search/>
- }
+ 
 const variants ={
   iconButton:{
     primary:{

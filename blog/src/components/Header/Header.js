@@ -1,10 +1,10 @@
 import * as React from "react"
-import PropTypes from 'prop-types'
+
 import { Link } from "gatsby"
 import styled, {ThemeConsumer} from "styled-components"
-import {flex} from 'rebass'
+import {Flex} from 'rebass'
 import { H1 } from "../Heading"
-import {SearchButtonButton} from '../Button'
+import {SearchButton } from '../Button'
 import {Section} from "../Section"
 
 const StyledHeader = styled.header`
@@ -25,7 +25,7 @@ const StyledLink = styled(Link)`
 const Image = styled.img`
 margin: 0;
 `
-const Nav = styled(flex)`
+const Nav = styled(Flex)`
 flex-direction: row;
 justify-content: flex-end;
 align-items: center;
