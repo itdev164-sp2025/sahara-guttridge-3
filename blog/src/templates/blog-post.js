@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import { H1 } from '../components/Heading'
 
 const BlogPost = ({ data }) => {
-  const { title, body } = data.contentfulBlogPost
+  const { title, body, heroImage } = data.contentfulBlogPost
 
   return (
     <Layout>

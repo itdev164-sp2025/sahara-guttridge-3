@@ -13,11 +13,13 @@ display: grid;
 margin: 0;
 --w: 280px;
 --n: 2;
-gap: var(--siz-gap);
+gap: var(--size-gap);
 grid-template-columns: repeat(
   auto-fit,
   minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
 );
+margin-bottom: var(--size-gap);
+margin-top: var(--size-gap);
 `
 
 const IndexPage = ({ data }) => (
